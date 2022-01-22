@@ -1,5 +1,10 @@
 body{
     font-size: 2rem;
+    background: #E5E5E5;
+    padding: 0;
+    margin: 0;
+}
+div {
 }
 
 .btn{
@@ -8,4 +13,651 @@ body{
 
 #surprise{
     display: none;
+}
+
+#Home {
+    /* Home */
+    position: relative;
+    /* width: 1500px; */
+    width: 100%;
+    height: 2483px;
+
+    background: #29AAE1;
+}
+
+#Header {
+    /* Header */
+    position: absolute;
+    /* width: 1500px; */
+    width: 100%;
+    height: 196px;
+    left: 0px;
+    top: 0px;
+}
+
+#Top-Content {
+    /* Top Content */
+
+    position: absolute;
+    /* width: 1502px; */
+    width: 100%;
+    height: 1134px;
+    left: -2px;
+    top: 0px;
+
+}
+
+#navbar{
+    /* Rectangle 13 */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.61%;
+    bottom: 65.31%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#JUSTWhiteBox {
+    /* Rectangle 15 */
+
+    position: absolute;
+    left: 1.93%;
+    right: 90.47%;
+    top: 34.69%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#bannerImage {
+/* image 9 */
+    position: absolute;
+    left: 0.13%;
+    right: 0%;
+    top: 0%;
+    bottom: 24.43%;
+
+    background: url(Images/BannerImage.png);
+    background-size: cover;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#navbarTextWater {
+    /* WATER */
+    position: absolute;
+    left: 63.93%;
+    right: 32.27%;
+    top: 14.29%;
+    bottom: 74.49%;
+
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #222222;
+}
+#navbarTextEggs {
+    /* EGGS */
+
+    position: absolute;
+    left: 75.07%;
+    right: 21.6%;
+    top: 14.29%;
+    bottom: 74.49%;
+
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #222222;
+}
+
+#navbarTextJust {
+    /* JUST */
+
+    position: absolute;
+    left: 86.67%;
+    right: 9.33%;
+    top: 14.29%;
+    bottom: 74.49%;
+
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.whiteText {
+    color: #FFFFFF;
+}
+
+#navbarBlock {
+
+    /* Rectangle 16 */
+
+    position: absolute;
+    left: 83%;
+    right: 7%;
+    top: 0%;
+    bottom: 57.65%;
+
+    background: #222222;
+
+    height: 83px;
+}
+
+#justRectangleImage {
+    position: absolute;
+    left: 2.33%;
+    right: 90.87%;
+    top: 12.76%;
+    bottom: 2.55%;
+    
+    background: url(Images/JUSTRectangle.png);
+
+    background-size: 100% 100%;
+}
+
+#justBannerText {
+    /* JUST */
+
+    position: absolute;
+    left: 30.29%;
+    right: 30.16%;
+    top: 43.21%;
+    bottom: 25.66%;
+
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 288px;
+    line-height: 353px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+}
+
+
+#checkUsOutButton {
+    /* Rectangle 12 */
+
+    position: absolute;
+    left: 42.54%;
+    right: 42.61%;
+    top: 76.01%;
+    bottom: 19.93%;
+
+    background: #FFB800;
+    border-radius: 5px;
+
+    width: 223px;
+    height: 46px;
+}
+
+#checkUsOutDiv {
+    /* Vector */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 73.81%;
+    bottom: 18.25%;
+
+    background: #FFFFFF;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#checkUsOutText {
+    /* CHECK US OUT */
+
+    position: absolute;
+    left: 45.94%;
+    right: 45.74%;
+    top: 77.07%;
+    bottom: 20.99%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    white-space: nowrap;
+
+    color: #FFFFFF;
+}
+
+#SpacerOne {
+    /* Rectangle 8 */
+
+    position: absolute;
+    left: 0.13%;
+    right: 0%;
+    top: 81.75%;
+    bottom: -7.05%;
+
+    background: #FFFFFF;
+
+}
+
+#WeAre-Text {
+    /* We Are... */
+
+    position: absolute;
+    left: 5.35%;
+    right: 82.64%;
+    top: 21.8%;
+    bottom: 68.97%;
+
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+    white-space: nowrap;
+}
+
+.WeAre-Images {
+    width: 203px;
+    height: 354px;
+}
+
+#ProductComponent {
+    /* Product Component */
+
+    position: absolute;
+    width: 1290px;
+    height: 477px;
+    left: 105px;
+    top: 927px;
+
+}
+
+#WaterImage {
+    /* image 12 */
+
+    position: absolute;
+    left: 5.35%;
+    right: 67.21%;
+    top: 34.8%;
+    bottom: 22.64%;
+
+    background: url(Images/WaterImage.png);
+    background-size: 100% 100%;
+
+}
+
+#EggsImage {
+    /* image 13 */
+
+    position: absolute;
+    left: 36.28%;
+    right: 36.28%;
+    top: 35.01%;
+    bottom: 22.64%;
+
+    background: url(Images/EggsImage.png);
+    background-size: 100% 100%;
+
+}
+
+#DrinkingImage {
+    /* image 15 */
+
+    position: absolute;
+    left: 67.21%;
+    right: 5.35%;
+    top: 35.01%;
+    bottom: 22.85%;
+
+    background: url(Images/DrinkingImage.png);
+    background-size: 100% 100%;
+
+}
+
+.ProductText {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+#WaterImageText {
+    /* Water */
+
+    position: absolute;
+    left: 5.35%;
+    right: 90.08%;
+    top: 81.55%;
+    bottom: 13%;
+}
+
+#EggsImageText {
+    /* Eggs */
+
+    position: absolute;
+    left: 36.2%;
+    right: 60.08%;
+    top: 81.55%;
+    bottom: 13%;
+}
+
+#DrinkingImageText {
+    /* Us */
+
+    position: absolute;
+    left: 67.21%;
+    right: 31.01%;
+    top: 81.55%;
+    bottom: 13%;
+
+}
+
+#DescriptionText {
+    /* Rectangle 21 */
+
+    position: absolute;
+    width: 150%;
+    height: 115px;
+    left: -105px;
+    top: 464px;
+
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#SubscriptionBar {
+    /* Subscription Bar */
+
+    position: absolute;
+    width: 845px;
+    height: 204px;
+    left: 328px;
+    top: 1633px;
+}
+#JoinJUSTMovement {
+    /* Join the JUST movement */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 58.33%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+#StayInTouch {
+    /* Let’s stay in touch. We promise we won’t clog your inbox. */
+
+    position: absolute;
+    left: 1.3%;
+    right: 1.3%;
+    top: 40.69%;
+    bottom: 41.67%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #222222;
+
+}
+
+#SubscribeButton {
+    /* Rectangle 20 */
+
+    position: absolute;
+    left: 66.98%;
+    right: 1.42%;
+    top: 67.65%;
+    bottom: 0%;
+
+    background: #FFB800;
+    border-radius: 5px;
+
+}
+
+.SubscribeText {
+    /* Subscribe */
+
+    position: absolute;
+    left: 74.56%;
+    right: 8.88%;
+    top: 75%;
+    bottom: 7.35%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+#Footer {
+    /* Footer */
+
+    position: absolute;
+    width: 858px;
+    height: 515px;
+    left: 202px;
+    top: 1930px;
+}
+
+#FooterTextBlockOne {
+    /* Egg Mission Impact Stories Recipes */
+
+    position: absolute;
+    left: 0%;
+    right: 73.54%;
+    top: 0%;
+    bottom: 41.75%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    /* or 60px */
+
+    display: flex;
+    align-items: left;
+    letter-spacing: -0.01em;
+    flex-direction: column;
+
+    color: #999999;
+
+}
+
+#FooterTextBlockTwo {
+    /* Find us FAQ Reviews Careers Contact */
+
+    position: absolute;
+    left: 63.87%;
+    right: 7.93%;
+    top: 0%;
+    bottom: 41.75%;
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+    /* or 60px */
+
+    display: flex;
+    align-items: left;
+    letter-spacing: -0.01em;
+    flex-direction: column;
+
+    color: #999999;
+
+}
+
+#FooterBlackBox {
+    /* Rectangle 17 */
+
+    position: absolute;
+    left: -23.54%;
+    right: -51.28%;
+    top: -6.41%;
+    bottom: -7.38%;
+
+    background: #222222;
+
+}
+
+.FooterLink {
+    text-decoration: none;
+    color: #999999;
+    padding: 2px;
+}
+
+.SmallFooterLink {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    padding: 0px;
+
+    color: #999999;
+    white-space: nowrap;
+
+    text-decoration: none;
+}
+
+#SmallFooterLinkEgg{
+    /* Egg */
+
+    position: absolute;
+    left: 0.35%;
+    right: 96.5%;
+    top: 97.28%;
+    bottom: 0%;
+
+}
+#SmallFooterLinkMeat{
+    /* Meat */
+
+    position: absolute;
+    left: 6.53%;
+    right: 89.28%;
+    top: 97.28%;
+    bottom: 0%;
+
+}
+#SmallFooterLinkCookies{
+    /* Cookies */
+
+    position: absolute;
+    left: 13.4%;
+    right: 80.3%;
+    top: 97.28%;
+    bottom: 0%;
+
+}
+#SmallFooterLinkTermsOfUse{
+    /* Terms of Use */
+
+    position: absolute;
+    left: 23.66%;
+    right: 66.78%;
+    top: 97.28%;
+    bottom: 0%;
+
+}
+#SmallFooterLinkPrivacyPolicy{
+    /* Privacy Policy */
+
+    position: absolute;
+    left: 36.25%;
+    right: 53.15%;
+    top: 97.28%;
+    bottom: 0%;
+
 }
