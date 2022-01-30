@@ -108,9 +108,9 @@ body{
 .triangle {
     width: 0;
     height: 0;
-    border-top: 20px solid white;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border-top: 29px solid white;
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
     position: absolute;
     left: 723px;
     right: 723px;
