@@ -112,9 +112,55 @@ body{
     border-left: 29px solid transparent;
     border-right: 29px solid transparent;
     position: absolute;
-    left: 723px;
-    right: 723px;
+    left: 685px;
+    right: 685px;
     top: 794px;
     bottom: 34px;
 }
+.divider-wrapper{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 826px;
+    bottom: 10px;
+}
+.divider{
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    width: 1428px;
+    height: 0;
+    position: relative;
+}
+.divider:before{
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-bottom: 21px solid white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 50%;
+    margin: 0 -21px;
+    transform: scale(1,-1);
+}
+.divider:after{
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 50%;
+    margin: 0 -21px -2px -21px;
+    z-index: 2;
+    transform: scale(1,-1);
+}
+
+
 
