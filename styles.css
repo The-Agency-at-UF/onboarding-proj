@@ -46,6 +46,7 @@ li {
     position: fixed;
     border: none;
     color: white;
+    cursor: pointer;
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -73,6 +74,7 @@ li {
     border-style: solid;
     border-width: 5px 6px 6px 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 body{
     font-size: 2rem;
@@ -167,11 +169,12 @@ body{
 .info-btn-wrapper{
     background-color:white;
     width: 1500px;
-    height: 90px;
+    height: 378px;
 }
 .info-btn{
     border: none;
     color: white;
+    cursor: pointer;
     background: #FFB800;
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
@@ -185,6 +188,11 @@ body{
     position: relative;
     border-radius: 5px;
 }
+.product-wrapper{
+    background-color:#29AAE1;
+    width: 1500px;
+    height: 683px;
+}
 footer{
     background-color: #222222;
     height: 586px;
@@ -192,8 +200,5 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    color: #999999;   
+    color: #999999;
 }
-
-
-
