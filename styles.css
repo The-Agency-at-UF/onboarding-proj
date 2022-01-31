@@ -80,6 +80,7 @@ body{
 .home-header {
     width: 1500px;
     height: 857px;
+    background-size: cover;
     background-image: url(images/Header\ image.png);
 }
 .home-background-image {
@@ -160,6 +161,22 @@ body{
     margin: 0 -21px -2px -21px;
     z-index: 2;
     transform: scale(1,-1);
+}
+.info-btn{
+    border: none;
+    color: white;
+    background: #FFB800;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    left: 603px;
+    top: 862px;
+    width: 223px;
+    height: 46px;
+    position: absolute;
+    border-radius: 5px;
 }
 
 
