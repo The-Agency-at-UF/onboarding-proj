@@ -162,6 +162,11 @@ body{
     z-index: 2;
     transform: scale(1,-1);
 }
+.info-btn-wrapper{
+    background-color:white;
+    width: 1500px;
+    height: 90px;
+}
 .info-btn{
     border: none;
     color: white;
@@ -172,11 +177,20 @@ body{
     font-weight: bold;
     line-height: 22px;
     left: 603px;
-    top: 862px;
+    top: 25px;
     width: 223px;
     height: 46px;
-    position: absolute;
+    position: relative;
     border-radius: 5px;
+}
+footer{
+    background-color: #222222;
+    height: 586px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #999999;   
 }
 
 
