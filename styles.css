@@ -1,11 +1,172 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+
+}
+
 body{
-    font-size: 2rem;
+    background: #29AAE1;
+    margin: 0%;
+   
 }
 
-.btn{
-    background-color: rgb(161, 190, 141);
+/* styles for the navigation bar */
+.nav-container{
+    padding-top: 2%;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+
 }
 
-#surprise{
-    display: none;
+.logo {
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 60%;
+    /* above line is what is getting the menu items to go to the left */
+
+}
+
+nav li {
+    margin-right: 100px;
+
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* top-content */
+.top-content{
+    position: relative;
+    background-color: white;
+}
+.background-img{
+    width: 100%;
+    height: auto;
+    /* this code is very helpful */
+    z-index: 0;
+}
+
+.logo-img{
+    display: block;
+    margin-left: 25%;
+    width: 50%;
+    position: absolute;
+    bottom: 12%;
+    z-index: 1;
+}
+
+.section-break{
+    
+}
+
+.top-content button{
+    display: block;
+    margin-left: 38%;
+    width: 25%;
+    height: 10%;
+    border: none;
+    background-color: #FFB800;
+    border-radius: 5px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* this isn't offset from the background photo     */
+}
+
+/* product component */
+h1{
+    padding-top: 7%;
+    margin-left: 4%;
+}
+
+.product-container{
+    margin-left: 4%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.internal-container{
+    flex: 1;
+    /* these don't stack on top of each other */
+}
+
+.description{
+    background: #87c4de;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.description p{
+    margin: auto;
+    width: 50%;
+}
+
+
+
+/* subscription box */
+
+.subscription-box{
+    margin: auto;
+    width: 50%;
+}
+
+.subscription-box h1 {
+    color: white;
+}
+
+/* footer */
+
+.footer-container{
+    background-color: #222222; 
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: #222222;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    color: #999999;
+
+}
+
+.footer1 a{
+    color: #999999;
+}
+
+.footer2 {
+    display: inline-block;
+    flex-direction: row;
+    color: #999999;
+}
+
+.footer2 a{
+    color: #999999;
 }
