@@ -122,12 +122,31 @@ body{
     top: 794px;
     bottom: 34px;
 }
+.triangle2{
+    width: 0;
+    height: 0;
+    border-top: 29px solid white;
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+    position: absolute;
+    left: 685px;
+    right: 685px;
+    top: 1555px;
+    bottom: 899px;
+}
 .divider-wrapper{
     position: absolute;
-    left: 0%;
-    right: 0%;
+    left: 0;
+    right: 0;
     top: 826px;
     bottom: 10px;
+}
+.divider-wrapper2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1587px;
+    bottom: 875px; 
 }
 .divider{
     display: block;
@@ -192,6 +211,14 @@ body{
     background-color:#29AAE1;
     width: 1500px;
     height: 683px;
+}
+.divider-lorem{
+    position: absolute;
+    width: 1500px;
+    height: 115px;
+    top: 1391px;
+    bottom: 977px;
+    background: rgba(255, 255, 255, 0.5);
 }
 footer{
     background-color: #222222;
