@@ -202,3 +202,51 @@ footer{
     margin: 0 auto;
     color: #999999;
 }
+.footer-wrapper{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 100%;
+}
+.footer-col1{
+    position: absolute;
+    left: 202px;
+    right: 1071px;
+    top: 1930px;
+    bottom: 253px;
+}
+.footer-col2{
+    position: absolute;
+    left: 750px;
+    right: 508px;
+    top: 1930px;
+    bottom: 253px;
+
+}
+.footer-row{
+    position: absolute;
+    left: 205px;
+    right: 0;
+    top: 2364px;
+    bottom: 38px;
+}
+.footer-link-col{
+    display: flex;
+    align-items: left;
+    letter-spacing: -0.01em;
+    flex-direction: column;
+    text-decoration: none;
+    color: #999999;
+    white-space: nowrap;
+}
+.footer-link-row{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #999999;
+
+}
