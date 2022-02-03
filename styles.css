@@ -4,10 +4,9 @@
     min-height: 100vh;
 }
 .nav-header {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: flex-end;
-    position: fixed;
     left: 0%;
     right: 0%;
     top: 11px;
