@@ -4,17 +4,103 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-    <div onmouseover="surprise()" onmouseout="noSurprise()">
-        Hello there! Hover over me for a treat
+    <div class = "wrapper">
+        <div class="nav-container">
+            <nav>
+                <img class="logo" src="images/LogoMenu.svg" alt="">
+                <ul>
+                    <li>
+                        <a href="https://www.shopjustwater.com/?_ga=2.49903269.
+                        2075939200.1600384547-2017490824.1600384547">Water</a>
+                    </li>
+                    <li>
+                        <a href="https://www.ju.st/en-us/stories/100-plant-based?gclid=CjwKCAjw
+                        koz7BRBPEiwAeKw3q5Wl4ifjrqL7siG-dO5KO88VPHU0ugFX9gIRz7dg_MLl_Q
+                        wwnFLe3hoCmlsQAvD_BwE">Eggs</a>
+                    </li>
+                    <li>
+                        <a href="#">Just</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="top-content">
+            <img src="images/background.png" class = "background-img" alt="">
+            <img src="images/JUST.png" class = "logo-img" alt="">
+            <div class="section-break"></div>
+            <button class="top-button">CHECK US OUT</button>
+        </div>
+        <h1>We Are...</h1>
+
+        <div class="product-container">
+                <div class="internal-container">
+                    <img src="images/WaterPhoto.png" alt="">
+                        <p>Water</p>
+                </div>
+                <div class="internal-container">
+                    <img src="images/EggPhoto.png" alt="">
+                        <p>Eggs</p>
+                </div>
+                <div class="internal-container">
+                    <img src="images/UsPhoto.png" alt="">
+                        <p>Us</p>
+                </div>
+        </div>
+
+        <div class="description">
+            <!-- has to be updated with javascript -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        
+        <div class="section-break"></div>
+
+        <div class="subscription-box">
+            <h1>
+                Join the JUST movement
+            </h1>
+            <h2>
+                Let’s stay in touch. We promise we won’t clog your inbox.
+            </h2>
+            <div class = "signup">
+                <input type="email" placeholder="your email">
+                <button>SUBSCRIBE</button>
+                <!-- button isn't exactly in line -->
+            </div>
+            <!-- subscription-box goes here -->
+        </div>
+
+        <div class="footer-container">
+
+                        <div class = "footer">
+                                <div class = "footer1">
+                                    <h1></h1>
+                                        <a href="#">Egg</a>
+                                        <a href="#">Mission</a>
+                                        <a href="#">Impact</a>
+                                        <a href="#">Stories</a>
+                                        <a href="#">Recipes</a>
+                                </div>
+                                <div class = "footer1">
+                                    <h1></h1>
+                                    <a href="#">Find us</a>
+                                    <a href="#">FAQ</a>
+                                    <a href="#">Reviews</a>
+                                    <a href="#">Careers</a>
+                                    <a href="#">Contact</a>
+                                </div>
+                        </div>
+                        <div class = "footer2">
+                            <h1></h1>
+                            <a href="#">Egg</a>
+                            <a href="#">Meat</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+        </div>
+
     </div>
-
-    <!-- No peeking -->
-    <iframe id="surprise"                                                                                                               src="https://giphy.com/embed/7702jh3NsloOseiDUk" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/7702jh3NsloOseiDUk"></a></p>
-    
-    <button class="btn" onclick="myFunction()">
-        Click me and check the console!
-    </button>
-
     
     <script src="index.js"></script> <!-- This is to be kept at the bottom of the body section -->
 </body>    
