@@ -218,6 +218,53 @@ body{
     width: 1500px;
     height: 683px;
 }
+.product-header{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.product-caption-water{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #000000;
+}
+.product-caption-eggs{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #000000;
+}
+.product-caption-us{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #000000;
+}
 .divider-lorem{
     position: absolute;
     width: 1500px;
@@ -225,6 +272,72 @@ body{
     top: 1391px;
     bottom: 977px;
     background: rgba(255, 255, 255, 0.5);
+}
+.divider-text{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.form-header{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    
+}
+.form-caption{
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #222222;
+}
+.form-style{
+    background: #FFFFFF;
+    opacity: 0.75;
+    border-radius: 5px;
+    font-family: Century Gothic, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    border: none;
+    width: 546px;
+    height: 66px;
+    color: rgba(34, 34, 34, 0.5);
+}
+.submit-btn{
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: #FFB800;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 37px;
+    width: 267px;
+    height: 66px;
+    position: relative;
+    border-radius: 5px;
 }
 footer{
     background-color: #222222;
