@@ -65,6 +65,12 @@ li {
     background: #222222;
     z-index: 1;
 }
+@media screen and (max-width: 768px){
+    .nav-header .navbar .btn{
+        display: none;
+    }
+    
+}
 /* Logo */
 .logo {
     position: absolute;
@@ -218,6 +224,13 @@ body{
     width: 1500px;
     height: 683px;
 }
+.product-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .product-header{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
@@ -225,44 +238,27 @@ body{
     font-size: 36px;
     line-height: 44px;
     display: flex;
-    align-items: center;
+    align-self: start;
     letter-spacing: -0.01em;
     color: #000000;
+    margin-left: 110px;
+    margin-bottom: -25px;
 }
-.product-caption-water{
+.product-image-wrapper{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin: 0;
+}
+.product-image-wrapper figcaption{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
-    display: flex;
-    align-items: center;
     letter-spacing: -0.01em;
-    
-    color: #000000;
-}
-.product-caption-eggs{
-    font-family: Century Gothic, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-    
-    color: #000000;
-}
-.product-caption-us{
-    font-family: Century Gothic, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-    
     color: #000000;
 }
 .divider-lorem{
