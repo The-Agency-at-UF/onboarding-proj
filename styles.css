@@ -68,8 +68,7 @@ li {
 @media screen and (max-width: 768px){
     .nav-header .navbar .btn{
         display: none;
-    }
-    
+   }
 }
 /* Logo */
 .logo {
@@ -155,7 +154,7 @@ body{
     left: 0;
     right: 0;
     top: 1587px;
-    bottom: 875px; 
+    bottom: 875px;
 }
 .divider{
     display: block;
@@ -290,7 +289,6 @@ body{
     align-items: center;
     letter-spacing: -0.01em;
     color: #FFFFFF;
-    
 }
 .form-caption{
     font-family: Century Gothic, sans-serif;
@@ -391,3 +389,4 @@ footer{
     text-decoration: none;
     color: #999999;
 }
+
