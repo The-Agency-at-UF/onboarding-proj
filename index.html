@@ -3,32 +3,37 @@
 <html>
    <head>
       <link rel="stylesheet" type="text/css" href="./styles.css">
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>Just Water</title>
    </head>
    <body>
-      <div class="page-wrapper">
+      <div id="page-wrapper">
+         <img id="logo" src="images/Logo.svg" alt="" onclick="topFunction()"/>
       <!-- Home Header-->
-      <header class="home-header">
-         <nav class ="nav-header">
-            <img class="logo" src="images/Logo.svg" alt="" onclick="topFunction()"/>
+      <header>
+         <div id="home-banner"></div>
+         <nav id="nav-header">
             <!-- Navigation Bar-->
-            <div class="navbar">
-               <ul>
-                  <li><a href="https://www.shopjustwater.com/
-                     ?_ga=2.49903269.2075939200.1600384547-2017490824.1600384547">WATER</a></li>
-                  <li><a href="https://www.ju.st/en-us/stories
+            <div id="navbar">
+                  <a id="navbar-WATER" href="https://www.shopjustwater.com/
+                     ?_ga=2.49903269.2075939200.1600384547-2017490824.1600384547">WATER</a>
+                  <a id="navbar-EGGS" href="https://www.ju.st/en-us/stories
                      /100-plant-based?gclid=CjwKCAjwko
                      z7BRBPEiwAeKw3q5Wl4ifjrqL7siG-dO5K
-                     O88VPHU0ugFX9gIRz7dg_MLl_QwwnFLe3hoCmlsQAvD_BwE">EGGS</a></li>
+                     O88VPHU0ugFX9gIRz7dg_MLl_QwwnFLe3hoCmlsQAvD_BwE">EGGS</a>
+                  <!-- Just Button-->
+                  <div onclick="topFunction()" id="nav-btn"> 
+                     <a id="navbar-JUST" href="https://www.ju.st/en-us/stories
+                        /100-plant-based?gclid=CjwKCAjwko
+                        z7BRBPEiwAeKw3q5Wl4ifjrqL7siG-dO5K
+                        O88VPHU0ugFX9gIRz7dg_MLl_QwwnFLe3hoCmlsQAvD_BwE">JUST</a>
+                  </div>
                </ul>
             </div>
          </nav>
-         <!-- Just Button-->
-         <button onclick="topFunction()" class="btn">JUST</button>
          <!-- JUST Text-->
-         <div class="text-wrapper">
-            <div class="text">JUST</div>
+         <div id="text-wrapper">
+            <div id="text">JUST</div>
          </div>
          <!-- Triangle Divider-->
          <div class="triangle"></div>
@@ -37,32 +42,32 @@
          </div>
       </header>
       <!-- Check Us Out-->
-      <div class="content-wrapper">
-         <div class="info-btn-wrapper">
-            <button class="info-btn">CHECK US OUT</button>
+      <div id="content-wrapper">
+         <div id="info-btn-wrapper">
+            <button id="info-btn">CHECK US OUT</button>
          </div>
          <!-- PRODUCTS -->
-            <div class="product-section">
-               <h1 class="product-header">We Are...</h1>
-               <div class="product-image-wrapper">
+            <div id="product-section">
+               <h1 id="product-header">We Are...</h1>
+               <div id="product-image-wrapper">
                   <figure>
-                     <img class="product-img-water" src="images/water.png" alt=""/>
+                     <img id="product-img-water" src="images/water.png" alt=""/>
                      <figcaption>Water</figcaption>
                   </figure>
                   <figure>
-                     <img class="product-img-eggs" src="images/Eggs.png" alt=""/>
+                     <img id="product-img-eggs" src="images/Eggs.png" alt=""/>
                      <figcaption>Eggs</figcaption>
                   </figure>
                   <figure>
-                     <img class="product-img-Us" src="images/Us.png" alt=""/>
+                     <img id="product-img-Us" src="images/Us.png" alt=""/>
                      <figcaption>Us</figcaption>
                </figure>
                </div>
             </div>
-            <div class="product-wrapper"></div>
+            <div id="product-wrapper"></div>
          <!-- Divider -->
-         <div class="divider-lorem">
-            <p class="divider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+         <div id="divider-lorem">
+            <p id="divider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                incididunt ut labore et dolore magna aliqua.
             </p>
          </div>
@@ -71,13 +76,13 @@
             <div class="divider">&nbsp;</div>
          </div>
          <!-- FORMS -->
-         <div class="form-wrapper">
-            <h1 class="form-header">Join the JUST movement</h1>
-            <p class="form-caption">Let's stay in touch. We promise we won't clog your inbox.</p>
+         <div id="form-wrapper">
+            <h1 id="form-header">Join the JUST movement</h1>
+            <p id="form-caption">Let's stay in touch. We promise we won't clog your inbox.</p>
             <form action="">
                <input type="email" name="email" class="form-style" placeholder="your email" required />
-               <div class="submit-container">
-                  <input class="submit-btn" type="submit" value="Subscribe">
+               <div id="submit-container">
+                  <input id="submit-btn" type="submit" value="Subscribe">
                </div>
             </form>
          </div>

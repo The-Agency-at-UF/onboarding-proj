@@ -1,9 +1,10 @@
 /* Header */
-.page-wrapper{
+#page-wrapper{
     position: relative;
+    max-width: 1500px;;
     min-height: 100vh;
 }
-.nav-header {
+#nav-header {
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -18,7 +19,7 @@
     z-index: 1;
 }
 /* Navigation */
-.navbar{
+#navbar{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -27,25 +28,8 @@
     margin-right: 270px;
     bottom: 3px;
 }
-.navbar li a {
-    color: #222222;
-    font-family: "Century Gothic", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 22px;
-    margin-right: 110px;
-}
-ul {
-    list-style-type: none;
-    text-align: right;
-    margin: 0 auto;
-    padding: 0;
-}
-li {
-    display: inline;
-}
-.btn{
+
+#nav-btn{
     position: fixed;
     border: none;
     color: white;
@@ -63,19 +47,14 @@ li {
     width:150px;
     height:83px;
     background: #222222;
-    z-index: 1;
-}
-@media screen and (max-width: 768px){
-    .nav-header .navbar .btn{
-        display: none;
-   }
+    z-index: 2;
 }
 /* Logo */
-.logo {
+#logo {
     position: absolute;
     left: 2.33%;
     right: 90.87%;
-    top: 12.76%;
+    top: 25px;
     bottom: 2.55%;
     background: white;
     border-color: white;
@@ -83,33 +62,35 @@ li {
     border-width: 5px 6px 6px 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    z-index: 2;
 }
 body{
     font-size: 2rem;
     margin:0;
     padding: 0;
 }
-.home-header {
-    width: 1500px;
+#home-banner {
+    width: 100%;
     height: 857px;
+
     background-size: cover;
     background-image: url(images/Header\ image.png);
 }
-.home-background-image {
+#home-background-image {
     left: 0.13%;
     right: 0%;
     top: 0%;
     bottom: 24.43%;
 }
 /* JUST */
-.text-wrapper {
+#text-wrapper {
     position: absolute;
     left: 370px;
     right: 453px;
     top: 510px;
     bottom: 14px;
 }
-.text {
+#text {
     font-family: "Century Gothic", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -193,15 +174,15 @@ body{
     z-index: 2;
     transform: scale(1,-1);
 }
-.content-wrapper{
+#content-wrapper{
     padding-bottom: 586px;
 }
-.info-btn-wrapper{
+#info-btn-wrapper{
     background-color:white;
     width: 1500px;
     height: 378px;
 }
-.info-btn{
+#info-btn{
     border: none;
     color: white;
     cursor: pointer;
@@ -218,19 +199,19 @@ body{
     position: relative;
     border-radius: 5px;
 }
-.product-wrapper{
+#product-wrapper{
     background-color:#29AAE1;
     width: 1500px;
     height: 683px;
 }
-.product-section{
+#product-section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.product-header{
+#product-header{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -243,7 +224,7 @@ body{
     margin-left: 110px;
     margin-bottom: -25px;
 }
-.product-image-wrapper{
+#product-image-wrapper{
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -251,7 +232,7 @@ body{
     margin-top: 18px;
     margin: 0;
 }
-.product-image-wrapper figcaption{
+#product-image-wrapper figcaption{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -260,7 +241,7 @@ body{
     letter-spacing: -0.01em;
     color: #000000;
 }
-.divider-lorem{
+#divider-lorem{
     position: absolute;
     width: 1500px;
     height: 115px;
@@ -268,7 +249,7 @@ body{
     bottom: 977px;
     background: rgba(255, 255, 255, 0.5);
 }
-.divider-text{
+#divider-text{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -279,7 +260,7 @@ body{
     letter-spacing: -0.01em;
     color: #000000;
 }
-.form-header{
+#form-header{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -290,7 +271,7 @@ body{
     letter-spacing: -0.01em;
     color: #FFFFFF;
 }
-.form-caption{
+#form-caption{
     font-family: Century Gothic, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -301,7 +282,7 @@ body{
     letter-spacing: -0.01em;
     color: #222222;
 }
-.form-style{
+#form-style{
     background: #FFFFFF;
     opacity: 0.75;
     border-radius: 5px;
@@ -318,7 +299,7 @@ body{
     height: 66px;
     color: rgba(34, 34, 34, 0.5);
 }
-.submit-btn{
+#submit-btn{
     border: none;
     color: white;
     cursor: pointer;
@@ -388,5 +369,32 @@ footer{
     line-height: 100%;
     text-decoration: none;
     color: #999999;
+}
+@media (max-width: 428px){
+    #navbar, .triangle, .triangle2, .divider, .divider-wrapper2, #divider-lorem, #form-wrapper, #product-wrapper{
+        display: none;
+   }
+   #nav-header{
+       background-color: rgba(0, 0, 0, 0);
+       box-shadow: none;
+       width: 569px;
+   }
+   #logo {
+       width: 66px;
+       height: 106px;
+       left: 345px;
+       right: 158px;
+    top: 16px;
+}
+   #home-banner{
+       width: 569px;
+       height: 408px;
+   }
+    #text {
+        display: none;
+   }
+   footer{
+       width: 428px;
+   }
 }
 
