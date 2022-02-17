@@ -1,7 +1,8 @@
 /* Header */
 #page-wrapper{
     position: relative;
-    max-width: 1500px;;
+    max-width: 1500px;
+   ;
     min-height: 100vh;
 }
 #nav-header {
@@ -28,7 +29,6 @@
     margin-right: 270px;
     bottom: 3px;
 }
-
 #nav-btn{
     position: fixed;
     border: none;
@@ -51,7 +51,7 @@
 }
 /* Logo */
 #logo {
-    position: absolute;
+    position: fixed;
     left: 2.33%;
     right: 90.87%;
     top: 25px;
@@ -72,7 +72,6 @@ body{
 #home-banner {
     width: 100%;
     height: 857px;
-
     background-size: cover;
     background-image: url(images/Header\ image.png);
 }
@@ -374,27 +373,29 @@ footer{
     #navbar, .triangle, .triangle2, .divider, .divider-wrapper2, #divider-lorem, #form-wrapper, #product-wrapper{
         display: none;
    }
-   #nav-header{
-       background-color: rgba(0, 0, 0, 0);
-       box-shadow: none;
-       width: 569px;
+    #nav-header{
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+        width: 569px;
    }
-   #logo {
-       width: 66px;
-       height: 106px;
-       left: 345px;
-       right: 158px;
-    top: 16px;
-}
-   #home-banner{
-       width: 569px;
-       height: 408px;
+    #logo {
+        position: absolute;
+        width: 66px;
+        height: 106px;
+        left: 345px;
+        right: 158px;
+        top: 16px;
+   }
+    #home-banner{
+        width: 569px;
+        height: 408px;
    }
     #text {
         display: none;
    }
-   footer{
-       width: 428px;
+    footer{
+        width: 428px;
    }
 }
+
 
