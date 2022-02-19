@@ -1,21 +1,104 @@
+<!--TODO: Media Query + JavaScript + Font Fixes-->
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-</head>
-<body>
-    <div onmouseover="surprise()" onmouseout="noSurprise()">
-        Hello there! Hover over me for a treat
-    </div>
-
-    <!-- No peeking -->
-    <iframe id="surprise"                                                                                                               src="https://giphy.com/embed/7702jh3NsloOseiDUk" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/7702jh3NsloOseiDUk"></a></p>
-    
-    <button class="btn" onclick="myFunction()">
-        Click me and check the console!
-    </button>
-
-    
-    <script src="index.js"></script> <!-- This is to be kept at the bottom of the body section -->
-</body>    
+   <head>
+      <link rel="stylesheet" type="text/css" href="./styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Just Water</title>
+   </head>
+   <body>
+      <div id="Homepage">
+         <!-- TOP CONTENT-->
+         <div id="top-content">
+            <div id="banner"></div>
+            <div id="JUST-text">JUST</div>
+            <!-- FIXED CONTENT -->
+            <div id="Header">
+               <img id="logo" src="images/Logo.svg" alt="" onclick="window.scrollTo(0, 0);"/>
+               <div id="navbar"></div>
+               <div id="navbar-block"></div>
+               <div id="JUST-btn"></div>
+               <!-- Navigation Bar-->
+               <a id="navbar-WATER" href="https://www.shopjustwater.com/
+                  ?_ga=2.49903269.2075939200.1600384547-2017490824.1600384547">WATER</a>
+               <a id="navbar-EGGS" href="https://www.ju.st/en-us/stories
+                  /100-plant-based?gclid=CjwKCAjwko
+                  z7BRBPEiwAeKw3q5Wl4ifjrqL7siG-dO5K
+                  O88VPHU0ugFX9gIRz7dg_MLl_QwwnFLe3hoCmlsQAvD_BwE">EGGS</a>
+               <!-- Just Button-->
+               <a id="navbar-JUST" href="#" onclick="window.scrollTo(0, 0);">JUST</a>
+            </div>
+            <!-- Check Us Out-->
+            <div id="info-block"></div>
+            <div id="info-div"></div>
+            <button id="info-btn">CHECK US OUT</button>
+         </div>
+         <!-- PRODUCTS -->
+         <div id="product-wrapper">
+            <h1 id="product-header">We Are...</h1>
+            <figure>
+               <img id="product-WATER" src="images/water.png" alt=""/>
+               <figcaption id="product-caption-water">Water</figcaption>
+            </figure>
+            <figure>
+               <img id="product-EGGS" src="images/Eggs.png" alt=""/>
+               <figcaption id="product-caption-eggs">Eggs</figcaption>
+            </figure>
+            <figure>
+               <img id="product-US" src="images/Us.png" alt=""/>
+               <figcaption id="product-caption-us">Us</figcaption>
+            </figure>
+            <p id="divider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+               incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div id="divider-lorem"></div>
+            <div id="divider-lorem-arrow"></div>
+         </div>
+         <!-- Section Break One-->
+         <div id="section-divider-top">
+            <div class="divider">&nbsp;</div>
+            <div class="triangle"></div>
+         </div>
+         <!-- Section Break TWO-->
+         <div id="section-divider-body">
+            <div class="divider">&nbsp;</div>
+            <div class="triangle"></div>
+         </div>
+         <!-- FORMS -->
+         <div id="subscription">
+            <h1 id="subscription-header">Join the JUST movement</h1>
+            <p id="subscription-caption">Let's stay in touch. We promise we won't clog your inbox.</p>
+            <form action="">
+               <input type="email" name="email" id="form-style" placeholder="your email" required />
+               <input id="submit-btn" type="submit" value="Subscribe" onclick="submitted()">
+            </form>
+         </div>
+         <!-- FOOTER -->
+         <footer>
+            <div class="footer-block"></div>
+            <div class="footer-col1">
+               <a class="footer-link-col" href="https://www.ju.st/en-us/stories/100-plant-
+                  based?gclid=CjwKCAjwkoz7BRBPEiwAeKw3q5Wl4ifjrqL7siG-dO5KO88VPHU0ugFX9gIRz7
+                  dg_MLl_QwwnFLe3hoCmlsQAvD_BwE">Egg</a>
+               <a class="footer-link-col" href="https://justwater.com/pages/about">Mission</a>
+               <a class="footer-link-col" href="https://justwater.com/pages/impact">Impact</a>
+               <a class="footer-link-col" href="https://justwater.com/blogs/news">Stories</a>
+               <a class="footer-link-col" href="https://www.ju.st/cook">Recipes</a>
+            </div>
+            <div class="footer-col2">
+               <a class="footer-link-col" href="https://justwater.com/pages/store-locator">Find us</a>
+               <a class="footer-link-col" href="https://justwater.com/pages/faqs">FAQ</a>
+               <a class="footer-link-col" href="https://justwater.com/pages/reviews">Reviews</a>
+               <a class="footer-link-col" href="https://www.ju.st/careers">Career</a>
+               <a class="footer-link-col" href="https://justwater.com/pages/contact">Contact</a>
+            </div>
+            <a id="footer-link-row-EGGS" href="#">Egg</a>
+            <a id="footer-link-row-MEAT" href="https://goodmeat.co/">Meat</a>
+            <a id="footer-link-row-COOKIES" href="https://www.ju.st/cookies">Cookies</a>
+            <a id="footer-link-row-TERMS" href="https://www.ju.st/terms">Terms of Use</a>
+            <a id="footer-link-row-PRIVACY" href="https://www.ju.st/privacy">Privacy Policy</a>
+         </footer>
+      </div>
+      <script src="index.js"></script> <!-- This is to be kept at the bottom of the body section -->
+   </body>
 </html>
