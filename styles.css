@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #FFFFFF;
     font-size: 2rem;
@@ -19,7 +22,7 @@ body{
     height: 196px;
     left: 0px;
     top: 0px;
-    z-index: 1;
+    z-index: 2;
 }
 /* FIXED COMPONENTS */
 #logo{
@@ -450,6 +453,7 @@ figcaption{
     letter-spacing: -0.01em;
     color: rgba(34, 34, 34, 0.5);
 }
+
 #submit-btn{
     position: absolute;
     left: 66.98%;
@@ -467,6 +471,17 @@ figcaption{
     line-height: 37px;
     width: 267px;
     height: 66px;
+    border-radius: 5px;
+}
+#submit-btn:after{
+    content: "Submitted";
+    position: absolute;
+    left: 54.32%;
+    right: 7.1%;
+    top: 77.45%;
+    bottom: -9.8%;
+
+    background: #FFB800;
     border-radius: 5px;
 }
 /* FOOTER */
@@ -610,11 +625,13 @@ footer{
     letter-spacing: -0.01em;
 }
 @media (max-width: 428px){
-    #navbar, #navbar-block, #JUST-btn, #navbar-WATER, #navbar-EGGS, #navbar-JUST, #JUST-text, #divider-text, #divider-lorem, #divider-lorem-arrow, #section-divider-top, #section-divider-body, #divider-lorem, #subscription{
+    #navbar, #navbar-block, #JUST-btn, #navbar-WATER, #navbar-EGGS, #navbar-JUST, #JUST-text, #divider-text, 
+    #info-block, #info-div, #divider-lorem, #divider-lorem-arrow, #section-divider-top, #section-divider-body, #divider-lorem, #subscription{
         display: none;
    }
    #Homepage{
         height: 1843px;
+        background: #FFFFFF;
    }
    #Header{
 
@@ -625,8 +642,35 @@ footer{
     height: 408px;
     left: 0px;
     top: 0px;
-    
    }
+   #home-banner{
+    position: absolute;
+    width: 569px;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+    background: url(images/Header\ image.png);
+    background-size: cover;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+#info-btn{
+    position: absolute;
+    left: 103px;
+    top: 385px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: #FFB800;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    width: 223px;
+    height: 46px;
+    border-radius: 5px;
+}
    #product-wrapper{
     position: absolute;
     width: 354px;
